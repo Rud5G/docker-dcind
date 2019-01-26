@@ -1,7 +1,8 @@
 # Docker-compose in Docker
 -------
 
-    https://hub.docker.com/r/dkrud5g/dcind
+[![Build Status](https://travis-ci.com/Rud5G/docker-dcind.svg?branch=master)](https://travis-ci.com/Rud5G/docker-dcind)
+
 
 
 ## How to build & push
@@ -12,4 +13,6 @@ not required anymore, autobuild through travis
 
     docker push dkrud5g/dcind:latest
 
+## Extra
 
+    https://hub.docker.com/r/dkrud5g/dcind
