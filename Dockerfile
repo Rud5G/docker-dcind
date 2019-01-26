@@ -1,4 +1,4 @@
-FROM docker:dind
+FROM docker:stable-dind
 
 RUN set -ex; \
     apk add --update py-pip \
