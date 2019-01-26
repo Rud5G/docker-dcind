@@ -4,15 +4,11 @@
 [![Build Status](https://travis-ci.com/Rud5G/docker-dcind.svg?branch=master)](https://travis-ci.com/Rud5G/docker-dcind)
 
 
+## Usage
 
-## How to build & push
+    docker pull dkrud5g/dcind
+    
+### Example
 
-not required anymore, autobuild through travis
+    Usage: [codebuild_build.sh](https://github.com/aws/aws-codebuild-docker-images/blob/master/local_builds/codebuild_build.sh) -i dkrud5g/dcind [-a artifact_output_directory] [options]
 
-    docker build -t dkrud5g/dcind:latest .
-
-    docker push dkrud5g/dcind:latest
-
-## Extra
-
-    https://hub.docker.com/r/dkrud5g/dcind
