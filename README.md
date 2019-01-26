@@ -1,8 +1,5 @@
-# dcind
+# Docker-compose in Docker
 -------
-
-## Docker-compose in Docker
-
 
 ## How to build & push
 
