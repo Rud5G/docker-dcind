@@ -10,5 +10,7 @@
     
 ### Example
 
-    Usage: [codebuild_build.sh](https://github.com/aws/aws-codebuild-docker-images/blob/master/local_builds/codebuild_build.sh) -i dkrud5g/dcind [-a artifact_output_directory] [options]
+[codebuild_build.sh](https://github.com/aws/aws-codebuild-docker-images/blob/master/local_builds/codebuild_build.sh)
+
+    Usage: codebuild_build.sh -i dkrud5g/dcind [-a artifact_output_directory] [options]
 
