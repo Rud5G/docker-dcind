@@ -1,7 +1,10 @@
 # Docker-compose in Docker
--------
 
 [![Build Status](https://travis-ci.com/Rud5G/docker-dcind.svg?branch=master)](https://travis-ci.com/Rud5G/docker-dcind)
+
+-------
+
+dont use in production, this is for development
 
 
 ## Usage
