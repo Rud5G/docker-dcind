@@ -1,10 +1,9 @@
 FROM docker:stable-dind
 
 RUN set -ex; \
-    apk add --update py-pip bash openssl ca-certificates \
+    apk add --update --no-cache py-pip bash openssl ca-certificates build-base \
     && pip install --upgrade pip \
     && pip install docker-compose \
-    && pip install awscli
-
-# build-base
+    && pip install awscli \
+    && rm -rf ~/.cache/pip
 
