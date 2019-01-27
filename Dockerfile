@@ -23,4 +23,3 @@ RUN set -ex; \
     && pip install awscli \
     && rm -rf ~/.cache/pip
 
-
