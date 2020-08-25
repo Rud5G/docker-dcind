@@ -18,8 +18,7 @@ RUN set -ex; \
         bash \
         openssl \
         ca-certificates \
-    && pip install --upgrade pip \
-    && pip install docker-compose \
-    && pip install awscli \
-    && rm -rf ~/.cache/pip
+    && pip install --no-cache-dir --upgrade pip \
+    && pip install --no-cache-dir docker-compose \
+    && pip install --no-cache-dir awscli
 
